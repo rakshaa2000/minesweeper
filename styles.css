@@ -1,0 +1,46 @@
+BODY {
+  background: linear-gradient(black,rgb(65, 60, 60));
+  color: #DDDDDD;
+  font-family: courier new;
+  text-align: center;
+}
+
+H1 {
+  text-align: center;
+  /* font-size: 14pt; */
+  font-weight: normal;
+}
+#grid {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2%;
+}
+
+#grid TR TD{
+  border:1px solid white;
+  background: #8c928e;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  font-size: large;
+}
+
+#grid TR TD.clicked {
+    background: #000000;
+}
+
+#grid TR TD.mine {
+    /* background-color: #ffd000; */
+    background-image: url('./bomb.svg');
+    background-size: 100% auto;
+}
+
+BUTTON {
+  /* margin: 12px; */
+  width: 100px;
+  background-color: black;
+  color: white;
+  padding: 1%;
+  border: #ffffff 1px solid;
+  border-radius: 5%;
+}
